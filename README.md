@@ -3,7 +3,7 @@
 # Timestamp: 27/3/2017 02:00 AM
 # This guide will get you through how to run the code for the paper titled						
 # BinaryConnect: Training Deep Neural Networks with binary weights during propagations
-# avaialable at : https://arxiv.org/pdf/1602.02830.pdf?										
+# avaialable at : https://arxiv.org/abs/1511.00363									
 # git repository at : https://github.com/MatthieuCourbariaux/BinaryConnect							
 
 
