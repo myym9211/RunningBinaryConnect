@@ -1,4 +1,4 @@
-# Title : Windows 10 Guide to run BinaryNet
+# Title : Windows 10 Guide to run BinaryConnect
 # Author : Yameen Malik
 # Timestamp: 27/3/2017 02:00 AM
 # This guide will get you through how to run the code for the paper titled						
