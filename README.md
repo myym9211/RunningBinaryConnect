@@ -82,16 +82,23 @@
 		[global]
 		floatX = float32
 		device = gpu
-		mode=FAST_RUN
+		optimizer = fast_run
+
 
 		[cuda]
-		root = C:\Program Files\NVIDIA Corporation\Installer2\CUDAToolkit_8.0.{03A68DD2-B457-4C3B-9B1E-1FB837E6C727}
+		root = C:\Program Files\NVIDIA Corporation\Installer2\CUDAToolkit_8.0.{811D59BF-D242-46E3-8A87-F501384E5613}
 
+		[lib]
+		cnmem = 0.8
 
 		[nvcc]
 		flags = -LC:\Users\Malik\Anaconda2\libs
-		compiler_bindir = E:\Installed Softwares\VisualStudio2015\VC\bin
+		compiler_bindir = E:\Installed Softwares\VC\bin
 		fastmath = True
+
+		[blas]
+		ldflags = -llapack -lblas
+
 	-------------------------------------------------------------------------------------------------------------------
 	8c. Set the path of following variables:
 		-> root : Assign it the path of directory where CUDA is. 
@@ -130,23 +137,5 @@
 		
 		
 =======================================================================
-[global]
-floatX = float32
-device = gpu
-optimizer = fast_run
 
-
-[cuda]
-root = C:\Program Files\NVIDIA Corporation\Installer2\CUDAToolkit_8.0.{811D59BF-D242-46E3-8A87-F501384E5613}
-
-[lib]
-cnmem = 0.8
-
-[nvcc]
-flags = -LC:\Users\Malik\Anaconda2\libs
-compiler_bindir = E:\Installed Softwares\VC\bin
-fastmath = True
-
-[blas]
-ldflags = -llapack -lblas
 
